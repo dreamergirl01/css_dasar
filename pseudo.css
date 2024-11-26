@@ -1,0 +1,50 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color:green;
+    font-size: small;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: red;
+    font-weight: bold;
+}
+
+/* li:first-child a{
+    color: green;
+}
+
+li:last-child a{
+    color: green;
+} */
+
+/* artinya untuk kelipatan ke 3 */
+li:nth-child(3n) a{ 
+    color: purple;
+}
+
+/* arrtinya untuk kelipatan 3 tapi dimulai dari 1 */
+li:nth-child(3n-2) a{
+    color: brown;
+}
+
+p:first-of-type{
+    color: red;
+    text-align: justify;
+    background-color: lavender;
+    padding: 5%;
+}
+
+p:last-of-type{
+    color: blue;
+    text-align: justify;
+    background-color: lavenderblush;
+    padding: 5%;
+    border: 100px;
+}

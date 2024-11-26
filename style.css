@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+.menu a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.menu a:hover{
+    background-color: rgb(118, 162, 225);
+    color: white;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.register a:hover{
+    background-color: rgb(118, 162, 225);
+    color: white;
+}
