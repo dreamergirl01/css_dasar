@@ -1,0 +1,29 @@
+.navbar a{
+    background-color: rgb(182, 215, 242);
+    /* bukan display bawaan */
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.main{
+    background-color: lavender;
+    width: 600px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.main h2{
+    background-color: greenyellow;
+}
+
+.main p{
+    text-align: justify;
+}
+
+.footer{
+    background-color: rgb(167, 205, 237);
+    width: 600px;
+}
+
+/* display default semua */

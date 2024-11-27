@@ -1,0 +1,13 @@
+div.satu{
+    width: 500px;
+    height: 200px;
+    background-color: lightcoral;
+    overflow: auto;
+}
+div.dua{
+    background-color: lightblue;
+    width: 80%;
+    margin: 10px;
+    text-align: justify;
+    padding: 5px;
+}
