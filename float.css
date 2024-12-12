@@ -1,0 +1,95 @@
+.container{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+}
+.satu, .dua, .tiga{
+    width: 100px;
+    height: 100px;
+}
+.satu{
+    background-color: silver;
+    text-align: center;
+}
+.dua{
+    background-color: skyblue;
+    text-align: center;
+    float: right;
+}
+.tiga{
+    background-color: greenyellow;
+    text-align: center;
+}
+.containerdua{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+img{
+    float: left;
+    margin: 10px;
+}
+p{
+    text-align: justify;
+}
+.containertiga{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.kotak1{
+    width: 150px;
+    background-color: #A8D5E3;
+    height: 500px;
+    float: left;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.kotak2{
+    width: 500px;
+    background-color: #FF78AC;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.kotak3{
+    width: 150px;
+    background-color: #A8D5E3;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.kotak1 p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.kotak2 p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.kotak3 p{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
