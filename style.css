@@ -1,37 +1,65 @@
 *{
-    padding: 0;
-    margin: 0;
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
 }
-.navbar{
-    background-color: black;
-    display: flex;
-    position: fixed;
-    padding: 20px;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
+body{
+    background-image: url('image/background3.jpg');
 }
-.logo p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    color: white;
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
 }
-.menu a{
-    margin: 30px;
-    text-decoration: none;
-    color: white;
-    font-size: large;
+.container{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 300px);
+	gap: 0;
+	width: 1200px;
+	margin: auto;
+	height: 600px;
+	background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow-y: hidden;
+	padding: 20px;
+	margin-top: 20px;
 }
-.menu a:hover{
-    background-color: rgb(118, 162, 225);
-    color: white;
+.card{
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 250px;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transform: scale(0.95);
 }
-.register a{
-    color: white;
-    text-decoration: none;
-    font-size: large;
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	z-index: 10;
+  }
+  .card a{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	color: blue;
+  }
+  .card a:hover{
+	color: black;
+  }
+.footer{
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
-.register a:hover{
-    background-color: rgb(118, 162, 225);
-    color: white;
-}
+
+
+
